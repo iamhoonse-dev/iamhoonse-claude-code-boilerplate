@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "iamhoonse-claude-code": {
+      "source": {
+        "source": "github",
+        "repo": "iamhoonse-dev/iamhoonse-claude-code"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true
+  }
+}
