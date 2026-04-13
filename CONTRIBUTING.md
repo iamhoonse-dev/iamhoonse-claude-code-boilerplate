@@ -17,15 +17,16 @@
 
 ## 개발 워크플로우
 
-이 프로젝트는 Superpowers 플러그인 기반의 5단계 개발 워크플로우를 따릅니다:
+이 프로젝트는 Superpowers 플러그인 기반의 6단계 개발 워크플로우를 따릅니다:
 
 | 단계 | Superpowers 스킬 | 설명 |
 |------|------------------|------|
 | 1. Brainstorming | `superpowers:brainstorming` | 요구사항 파악, 설계 옵션 탐색, 설계 문서 작성 |
 | 2. Planning | `superpowers:writing-plans` | 설계 기반 구현 계획 수립, 태스크 분해 |
-| 3. Implementation | `superpowers:test-driven-development` | TDD 기반 구현 (RED → GREEN → REFACTOR) |
-| 4. Code Review | `superpowers:requesting-code-review` | 구현 결과 검증, 품질 확인 |
-| 5. Branch Completion | `superpowers:finishing-a-development-branch` | 머지, PR 생성, 또는 정리 |
+| 3. Branch/Worktree | `superpowers:using-git-worktrees` | 격리된 작업 환경 생성 (main 브랜치 보호) |
+| 4. Implementation | `superpowers:test-driven-development` | TDD 기반 구현 (RED → GREEN → REFACTOR) |
+| 5. Code Review | `superpowers:requesting-code-review` | 구현 결과 검증, 품질 확인 |
+| 6. Branch Completion | `superpowers:finishing-a-development-branch` | 머지, PR 생성, 또는 정리 |
 
 ## 플러그인 관리
 
@@ -106,7 +107,7 @@ docs: 문서 변경 설명
 
 - **변경 사항 요약**: 무엇을 왜 변경했는지
 - **기능 체크리스트**: 구현한 기능이나 수정 사항 나열
-- **워크플로우 체크리스트**: 5단계 워크플로우 준수 여부
+- **워크플로우 체크리스트**: 6단계 워크플로우 준수 여부
 - **참고 문서**: 관련 설계 문서, 구현 계획, 이슈 링크
 
 ### 리뷰 프로세스

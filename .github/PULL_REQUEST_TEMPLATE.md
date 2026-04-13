@@ -13,6 +13,7 @@ Closes #
 
 - [ ] Brainstorming (`superpowers:brainstorming`) 완료
 - [ ] Planning (`superpowers:writing-plans`) 완료
+- [ ] Branch/Worktree (`superpowers:using-git-worktrees`) 생성 완료
 - [ ] Implementation — TDD 기반 구현 완료
 - [ ] Code Review (`superpowers:requesting-code-review`) 완료
 - [ ] Branch Completion (`superpowers:finishing-a-development-branch`) 완료

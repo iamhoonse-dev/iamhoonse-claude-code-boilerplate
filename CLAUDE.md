@@ -4,7 +4,7 @@
 
 ## 개발 워크플로우
 
-모든 기능 개발 및 버그 수정은 다음 5단계를 따릅니다:
+모든 기능 개발 및 버그 수정은 다음 6단계를 따릅니다:
 
 1. **Brainstorming** (`superpowers:brainstorming`)
    - 요구사항 파악, 설계 옵션 탐색, 설계 문서 작성
@@ -12,13 +12,16 @@
 2. **Planning** (`superpowers:writing-plans`)
    - 설계 기반 구현 계획 수립, 태스크 분해
 
-3. **Implementation** (`superpowers:test-driven-development`, `superpowers:executing-plans`)
+3. **Branch/Worktree** (`superpowers:using-git-worktrees`)
+   - 격리된 작업 환경 생성 (main 브랜치 보호)
+
+4. **Implementation** (`superpowers:test-driven-development`, `superpowers:executing-plans`)
    - TDD 기반 구현 (RED → GREEN → REFACTOR)
 
-4. **Code Review** (`superpowers:requesting-code-review`)
+5. **Code Review** (`superpowers:requesting-code-review`)
    - 구현 결과 검증, 품질 확인
 
-5. **Branch Completion** (`superpowers:finishing-a-development-branch`)
+6. **Branch Completion** (`superpowers:finishing-a-development-branch`)
    - 머지, PR 생성, 또는 정리
 
 ## 브랜치 전략
