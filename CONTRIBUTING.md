@@ -12,8 +12,20 @@
    ```
 3. 작업용 브랜치를 생성합니다:
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feat/your-feature-name
    ```
+
+## 개발 워크플로우
+
+이 프로젝트는 Superpowers 플러그인 기반의 5단계 개발 워크플로우를 따릅니다:
+
+| 단계 | Superpowers 스킬 | 설명 |
+|------|------------------|------|
+| 1. Brainstorming | `superpowers:brainstorming` | 요구사항 파악, 설계 옵션 탐색, 설계 문서 작성 |
+| 2. Planning | `superpowers:writing-plans` | 설계 기반 구현 계획 수립, 태스크 분해 |
+| 3. Implementation | `superpowers:test-driven-development` | TDD 기반 구현 (RED → GREEN → REFACTOR) |
+| 4. Code Review | `superpowers:requesting-code-review` | 구현 결과 검증, 품질 확인 |
+| 5. Branch Completion | `superpowers:finishing-a-development-branch` | 머지, PR 생성, 또는 정리 |
 
 ## 플러그인 관리
 
@@ -46,7 +58,7 @@
 
 - `main` 브랜치는 보호됩니다. 직접 push하지 마세요.
 - 작업 브랜치는 다음 네이밍을 따릅니다:
-  - `feature/<기능명>` — 새 기능 추가
+  - `feat/<기능명>` — 새 기능 추가
   - `fix/<수정내용>` — 버그 수정
   - `docs/<문서명>` — 문서 변경
   - `chore/<작업명>` — 기타 유지보수
@@ -80,11 +92,22 @@ chore: update gitignore patterns
 
 ## PR 가이드라인
 
+### PR 제목
+
+Conventional Commits 형식으로 작성합니다:
+
+```
+feat: 새 기능 설명
+fix: 수정 내용 설명
+docs: 문서 변경 설명
+```
+
 ### PR 작성 시 포함할 내용
 
 - **변경 사항 요약**: 무엇을 왜 변경했는지
-- **플러그인 변경 시**: 추가/제거한 플러그인과 사유
-- **호환성 확인 여부**: 기존 플러그인과의 충돌 검토 결과
+- **기능 체크리스트**: 구현한 기능이나 수정 사항 나열
+- **워크플로우 체크리스트**: 5단계 워크플로우 준수 여부
+- **참고 문서**: 관련 설계 문서, 구현 계획, 이슈 링크
 
 ### 리뷰 프로세스
 
