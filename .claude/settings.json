@@ -6,7 +6,9 @@
     "semgrep@claude-plugins-official": true,
     "microsoft-docs@claude-plugins-official": true,
     "explanatory-output-style@claude-plugins-official": true,
-    "learning-output-style@claude-plugins-official": true
+    "learning-output-style@claude-plugins-official": true,
+    "git-convention@iamhoonse-claude-code": true,
+    "commit-commands@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "iamhoonse-claude-code": {
